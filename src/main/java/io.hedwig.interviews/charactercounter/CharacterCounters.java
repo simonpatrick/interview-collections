@@ -1,4 +1,4 @@
-package io.hedwig.interviews.charactorcounter;
+package io.hedwig.interviews.charactercounter;
 
 import java.util.HashMap;
 import java.util.Map;
