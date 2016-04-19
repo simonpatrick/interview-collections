@@ -1,6 +1,5 @@
 package io.hedwig.interviews.algo;
 
-import static com.google.common.base.CharMatcher.is;
 import static org.junit.Assert.*;
 
 /**
@@ -8,10 +7,9 @@ import static org.junit.Assert.*;
  */
 
 import com.google.common.collect.Lists;
+import io.hedwig.interviews.algo.numbers.MaxLeaseCommonMultiple;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by patrick on 16/4/19.

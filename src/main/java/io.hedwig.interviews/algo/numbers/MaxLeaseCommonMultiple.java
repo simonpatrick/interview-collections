@@ -1,4 +1,4 @@
-package io.hedwig.interviews.algo;
+package io.hedwig.interviews.algo.numbers;
 
 import com.google.common.collect.Lists;
 
