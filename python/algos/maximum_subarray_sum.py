@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-def maximum_subarray_sum(array=[]):
+def maximum_sub_array_sum(array=[]):
     max_ending_here = max_so_far = array[0]
     for item in array[1:]:
         max_ending_here = max(0, max_ending_here + item)
@@ -9,4 +9,4 @@ def maximum_subarray_sum(array=[]):
     return max_so_far
 
 
-print(maximum_subarray_sum([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
+print(maximum_sub_array_sum([-2, 1, -3, 4, -1, 2, 1, -5, 4]))
